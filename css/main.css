@@ -52,6 +52,9 @@ body{
  .header .links{
     position: relative;
 
+ } 
+ .header .links:hover .icon span :nth-child(2){
+    width: 100%;
  }
  .header .links .icon{
     width: 30px;
@@ -70,6 +73,7 @@ body{
  .header .links .icon span:nth-child(2){
     height: 2px;
     width: 60%;
+    transform: 0.3s;
  }
  .header .links .icon span:last-child{
     height: 2px;
