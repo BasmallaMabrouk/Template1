@@ -7,7 +7,7 @@ box-sizing: border-box;
 body{
     font-family: 'Work Sans', sans-serif;
 }
-/* End Global rules */ 
+
 .parent{
     background-color: aliceblue;
 }
@@ -36,3 +36,13 @@ body{
         width: 1170px;
     }
 }
+/* End Global rules */ 
+ /* start styling header */
+ .header{
+    padding: 20px;
+ } 
+ .header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
