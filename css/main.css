@@ -114,4 +114,9 @@ body{
    border-bottom: 1px solid #ddd;
  }
  /* End Header */
- 
+ /* start landing */
+ .landing{
+   background-image: url(/images/mount.webp);
+   background-size: cover;
+ }
+ /* end landing */
