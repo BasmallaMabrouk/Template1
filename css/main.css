@@ -120,9 +120,9 @@ body{
  /* End Header */
  /* start landing */
  .landing{
-   background-image: url(/images/mount.webp);
+   background-image: url(../images/mount.webp);
    background-size: cover;
-   height: calc(100vh-64px);
+   height: calc(100vh - 64px);
    position: relative;
  } 
  .landing .intro-text{
@@ -144,4 +144,11 @@ body{
    font-size: 19px;
 
  }
- /* end landing */
+ /* end landing */ 
+ /* start features */
+ .features{
+   padding-top: 60px; 
+   padding-bottom: 60px;
+   background-color: #f6f6f6;
+ }
+ /* end features */
