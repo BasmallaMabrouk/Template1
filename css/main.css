@@ -129,7 +129,10 @@ body{
    position: absolute;
    left: 50%;
    top: 50%;
+   text-align: center;
    transform: translate(-50%,-50%); 
+   width: 320px;
+   max-width: 100%;
  }
  .landing .intro-text h1{
    margin: 0;
@@ -137,4 +140,8 @@ body{
    font-size: 50px;
    color: var(--main-color);
  } 
+ .landing .intro-text p{
+   font-size: 19px;
+
+ }
  /* end landing */
