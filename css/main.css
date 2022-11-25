@@ -1,3 +1,7 @@
+/* start variable */
+:root{
+   --main-color:#10cab7;
+}
 /* start a global rules */
 *{
 -webkit-box-sizing: border-box;
@@ -119,13 +123,13 @@ body{
    background-image: url(/images/mount.webp);
    background-size: cover;
    height: calc(100vh-64px);
+   position: relative;
  } 
  .landing .intro-text{
    position: absolute;
    left: 50%;
    top: 50%;
    transform: translate(-50%,-50%); 
-   position: relative;
  }
  .landing .intro-text h1{
    margin: 0;
