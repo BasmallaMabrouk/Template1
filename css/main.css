@@ -193,5 +193,24 @@ body{
  .services{
   padding-top: 60px;
   padding-bottom: 60px;
+ } 
+ .services .services-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fill ,minmax(300px,1fr));
+  grid-gap: 20px;
+ } 
+ .services .services-content .srv{
+  display: flex;
+  margin-bottom: 40px;
+ } 
+ @media(max-width:767px){
+  .services .services-content .sr{
+    flex-direction: column;
+    text-align: center;
+  }
+ } 
+ .services .services-content .sr i{
+  color: var(--main-color);
+  flex-basis: 60px;
  }
  /* end services */
