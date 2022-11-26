@@ -190,5 +190,8 @@ body{
  }
  /* end features */
  /* start services */
- 
+ .services{
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
  /* end services */
