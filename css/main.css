@@ -212,5 +212,16 @@ body{
  .services .services-content .sr i{
   color: var(--main-color);
   flex-basis: 60px;
+ } 
+ .services .services-content .text{
+  flex: 1;
+ } 
+ .services .services-content .srv .text h3{
+  margin: 0 0 20 px;
+ }
+ .services .services-content .srv p{
+  color: #777;
+  font-weight:  300;
+  line-height: 1.6;
  }
  /* end services */
