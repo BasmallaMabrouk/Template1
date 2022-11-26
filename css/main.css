@@ -1,6 +1,7 @@
 /* start variable */
 :root{
    --main-color:#10cab7;
+   --secondary-color:#2c4755;
 }
 /* start a global rules */
 *{
@@ -224,8 +225,23 @@ body{
   font-weight:  300;
   line-height: 1.6;
  } 
- .services .services-content .srv .image{
+ .services .services-content .image{
   text-align: center;
   position: relative;
+ } 
+ .services .services-content .image::before{
+  content: ''; 
+  background-color: var(--secondary-color);
+  width: 100px;
+  height: calc(100% + 100px);
+  top: -50px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+
+ } 
+ .services .services-content .image img{
+  width: 260px;
+  
  }
  /* end services */
