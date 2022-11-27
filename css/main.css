@@ -400,5 +400,20 @@ margin-bottom: 50px;
   .contact .info .link{
     font-size: 25px;
   }
- }
- /* End contant */
+ } 
+ 
+/* End contant */
+/* start footr */
+.footer{
+  background-color: var(--secondary-color);
+  color: white;
+  padding:  30px 10px;
+  text-align: center;
+  font-size: 10px;
+} 
+.footer span{
+  font-weight: bold;
+  color: var(--main-color);
+  
+}
+/* end footr */
