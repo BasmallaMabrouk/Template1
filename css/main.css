@@ -371,7 +371,7 @@ margin-bottom: 50px;
   text-align: center;
  } 
  .contact .info label{
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 800; /*extra Bold*/
   color: var(--secondary-color);
   letter-spacing: -2px;
@@ -393,6 +393,12 @@ margin-bottom: 50px;
  .contact .info .social i{
   margin-left: 10px;
   color: var(--secondary-color);
-  
+
+ } 
+ @media(max-width:767px){
+  .contact .info .label,
+  .contact .info .link{
+    font-size: 25px;
+  }
  }
  /* End contant */
