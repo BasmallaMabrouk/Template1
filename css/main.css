@@ -293,4 +293,9 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
  } 
+ .about .about-content .image{
+  position: relative;
+  width: 250px;
+  height: 375px;
+ }
  /* end about */
