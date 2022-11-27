@@ -359,3 +359,22 @@ margin-bottom: 50px;
 
 }
  /* end about */
+ /* start contant */
+ .contact{
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color:var(--section-background);
+ } 
+ .contact .info{
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  text-align: center;
+ } 
+ .contact .info label{
+  font-size: 30px;
+  font-weight: 800; /*extra Bold*/
+  color: var(--secondary-color);
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+ }
+ /* End contant */
