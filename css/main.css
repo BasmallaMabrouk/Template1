@@ -320,5 +320,9 @@ body{
   z-index:-1;
   right: -150px;
   top: -30-px;
+ } 
+ .about .about-content .text{
+  flex-basis: calc(100% - 500px);
+  
  }
  /* end about */
